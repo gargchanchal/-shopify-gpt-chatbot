@@ -1,6 +1,6 @@
 async function sendMessage() {
   const message = document.getElementById('userInput').value;
-  const response = await fetch('http://localhost:5000/api/chatbot', {
+  const response = await fetch('https://shopify-gpt-chatbot-api.onrender.com/api/chatbot', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
