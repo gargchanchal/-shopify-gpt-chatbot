@@ -1,0 +1,11 @@
+{
+  "name": "AI Product Chatbot",
+  "version": "1.0",
+  "extensions": [
+    {
+      "type": "web_pixel_extension",
+      "name": "AI Chat Widget",
+      "src": "https://yourdomain.com/chat-widget.js"
+    }
+  ]
+}

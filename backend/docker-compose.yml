@@ -1,0 +1,9 @@
+version: '3'
+services:
+  chatbot:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - OPENAI_API_KEY=your-openai-key
+      - HUBSPOT_API_KEY=your-hubspot-key
